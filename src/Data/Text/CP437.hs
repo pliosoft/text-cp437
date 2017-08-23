@@ -15,7 +15,7 @@
 module Data.Text.CP437
 (
     -- * Text/ByteString
-   , textToCp437
+     textToCp437
    , cp437ToText
 
     -- * Char/Word8
