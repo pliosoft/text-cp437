@@ -41,4 +41,4 @@ test-suite text-cp437-test
 
 source-repository head
   type:     git
-  location: git@github.com:clord/text-cp437.git
+  location: git@github.com:pliosoft/text-cp437.git
