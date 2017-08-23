@@ -1,5 +1,5 @@
 name:                text-cp437
-version:             0.2.0.0
+version:             0.2.1
 
 synopsis:            Conversion of Text to and from CP437
 description:         Some devices such as receipt printers require
