@@ -1,5 +1,6 @@
 name:                text-cp437
 version:             0.2.0.0
+
 synopsis:            Conversion of Text to and from CP437
 description:         Some devices such as receipt printers require
                      text encoded in CP437.
@@ -7,6 +8,7 @@ description:         Some devices such as receipt printers require
                      symbols to and from this format.
                      See <https://en.wikipedia.org/wiki/Code_page_437>
 homepage:            https://github.com/pliosoft/text-cp437#readme
+bug-reports:         https://github.com/pliosoft/text-cp437/issues
 license:             BSD3
 license-file:        LICENSE
 author:              Christopher Lord
