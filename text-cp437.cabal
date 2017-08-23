@@ -2,10 +2,10 @@ name:                text-cp437
 version:             0.2.0.0
 synopsis:            Conversion of Text to and from CP437
 description:         Some devices such as receipt printers require
-                     text encoded in CP437
-                     https://en.wikipedia.org/wiki/Code_page_437
-                     This library can help convert regular UTF8
+                     text encoded in CP437.
+                     This library can help convert regular UTF
                      symbols to and from this format.
+                     See <https://en.wikipedia.org/wiki/Code_page_437>
 homepage:            https://github.com/pliosoft/text-cp437#readme
 license:             BSD3
 license-file:        LICENSE
