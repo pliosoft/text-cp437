@@ -8,7 +8,7 @@
 -- Portability : GHC
 --
 -- Simple conversion of Unicode Text to and from code page 437, with printable
--- glyphs for the whole range except zero.
+-- glyphs for the whole range. Our design choice is to print 0x00 as a space.
 --
 -- Unrepresentable unicode characters are converted to a null byte.
 --
@@ -308,7 +308,7 @@ utfToByte c = case c of
    _        -> 0x00 -- Invalid conversion
 
 byteToUtf c = case c of
-   0x00 -> '\x0000' -- NULL
+   0x00 -> '\x0020' -- NULL
    0x01 -> '\x263A' -- START OF HEADING
    0x02 -> '\x263B' -- START OF TEXT
    0x03 -> '\x2665' -- END OF TEXT
