@@ -2,6 +2,9 @@
 
 Basic mapping of cp437 bytes to UTF and back.
 
+* `Data.Text.CP437` offers mapping that maps control characters to control characters.
+* `Data.Text.CP437.Graphical` maps control characters to old school pictures like `♪`.
+
 ## `textToCp437 :: Text -> ByteString`
 
 Given a string of text, produce a bytestring containing valid CP-437 encoded data.

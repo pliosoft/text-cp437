@@ -1,5 +1,5 @@
 name:                text-cp437
-version:             0.2.1
+version:             0.2.2
 
 synopsis:            Conversion of Text to and from CP437
 description:         Some devices such as receipt printers require
@@ -22,6 +22,7 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:     Data.Text.CP437
+                     , Data.Text.CP437.Graphical
   build-depends:       base >= 4.7 && < 5
                      , bytestring
                      , text
